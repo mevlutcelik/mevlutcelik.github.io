@@ -1,0 +1,50 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+header{
+    background-color: #0d1b27;
+    color: #fff;
+    padding: 5rem;
+    text-align: center;
+}
+.title{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+nav{
+    background-color: #db79be;
+    position: relative;
+    padding: 0.5rem 2rem;
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 2rem;
+}
+nav td:last-child{
+    position: absolute;
+    right: 1rem;
+}
+.home-table{
+    width: 100%;
+}
+.home-table tr td:first-child{
+    padding: 2rem 0.25rem;
+    text-align: center;
+    font-weight: bold;
+    width: 400px;
+}
+footer{
+    padding: 0.25rem 0;
+    background-color: #c8cef0;
+    text-align: center;
+}
+footer.iletisim{
+    padding: 2rem 0;
+    font-weight: bold;
+}
+main{
+    padding: 1rem;
+}
